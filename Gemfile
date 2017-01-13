@@ -7,7 +7,7 @@ gem 'tzinfo-data'
 
 gem 'spring', :group => :development
 
-
+gem 'puma'
 #gem 'sqlite3'
 
 gem 'httparty'
