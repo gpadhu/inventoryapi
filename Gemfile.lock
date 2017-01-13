@@ -59,6 +59,8 @@ GEM
     minitest (5.10.1)
     multi_xml (0.5.5)
     nio4r (1.2.1)
+    nokogiri (1.7.0.1)
+      mini_portile2 (~> 2.1.0)
     nokogiri (1.7.0.1-x86-mingw32)
       mini_portile2 (~> 2.1.0)
     puma (3.6.2)
@@ -110,6 +112,7 @@ GEM
     websocket-extensions (0.1.2)
 
 PLATFORMS
+  ruby
   x86-mingw32
 
 DEPENDENCIES
@@ -122,4 +125,4 @@ DEPENDENCIES
   tzinfo-data
 
 BUNDLED WITH
-   1.12.5
+   1.13.6
