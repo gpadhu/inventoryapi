@@ -9,7 +9,7 @@ gem 'spring', :group => :development
 
 gem 'puma'
 gem 'pg'
-#gem 'sqlite3'
+gem 'sqlite3', :group => :development
 
 gem 'httparty'
 

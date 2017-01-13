@@ -11,8 +11,8 @@ class Inventory
         offset = 0
         results = []
         while offset < total
-            offset += 10
             url = "https://www.lcbapps.lcb.state.pa.us/webapp/Product_Management/psi_ProductInventory_Inter.asp?cdeNo=" + id + '&offset=' + offset.to_s
+            offset += 10
             html = HTTParty.get(url);
             html_doc = Nokogiri::HTML(html)
 
