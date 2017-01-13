@@ -8,11 +8,11 @@ gem 'tzinfo-data'
 gem 'spring', :group => :development
 
 
-gem 'sqlite3'
+#gem 'sqlite3'
 
 gem 'httparty'
 
-gem 'byebug'
+#gem 'byebug'
 
 gem 'nokogiri'
 
